@@ -52,6 +52,7 @@ def set_logging(args):
     """
     Sets up logging capability
     :param args: a parser object
+    :type args: argparse.Namespace object
     :rtype: None
     """
     if args.log:
